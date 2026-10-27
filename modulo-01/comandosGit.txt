@@ -1,0 +1,40 @@
+Recordatorio del flujo
+
+# Crear repositorio
+mkdir calculadora-git
+cd calculadora-git
+git init
+git branch -M main
+
+# README inicial
+git add README.md
+git commit -m "chore: crear estructura inicial"
+
+# Crear ramas
+git branch feature/suma
+git branch feature/resta
+git branch feature/multiplicacion
+git branch feature/division
+
+# Trabajar una rama (repetir por operacion)
+git switch feature/suma
+git status
+git add suma.js
+git commit -m "feat: agregar operacion de suma"
+
+# Integrar
+git switch main
+git merge feature/suma
+git merge feature/resta
+git merge feature/multiplicacion
+git merge feature/division
+
+# Verificar
+git status
+git log --oneline --graph --decorate --all
+
+# Limpiar ramas ya integradas
+git branch -d feature/suma
+git branch -d feature/resta
+git branch -d feature/multiplicacion
+git branch -d feature/division
