@@ -1,7 +1,7 @@
 const salario = 2500000;
 const ingresosExtra = 500000;
 
-//Validar que lso ingresos sean enteros y no negativos
+//Validar que los ingresos sean enteros y no negativos
 function validarIngresos(ingreso, nombre) {
     if (!Number.isInteger(ingreso) || ingreso < 0) { //!Number.isInteger(Number(ingresoPrueba)) || Number(ingresoPrueba) < 0
         console.log(`Error: ${nombre} debe ser un número entero y no negativo.`);
