@@ -49,7 +49,6 @@ cd NOMBRE_DEL_PROYECTO
 node nombreArchivo.js
 ```
 
-Reemplaza `nombreArchivo.js` por el nombre del archivo principal del proyecto.
 
 **4. Interactuar con el menú**
 
@@ -96,7 +95,3 @@ Durante el desarrollo se implementaron los siguientes conceptos:
 - Validación numérica mediante `Number.isFinite()` y `Number.isInteger()`.
 - Entrada y salida de información por terminal.
 - Uso de módulos nativos de Node.js (`fs`).
-
-## Autor
-
-Desarrollado como ejercicio práctico de programación con JavaScript y Node.js.
